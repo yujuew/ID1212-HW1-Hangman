@@ -23,7 +23,7 @@ public class Client {
     public static final int PORT = 12345;//server port number.    
 
     public static void main(String[] args) {
-        System.out.println("Server Up...");
+        System.out.println("Client Up...\nType \"QUIT\" to disconnect from server");
         Socket socket = null;
         try {
             //create a socket and connect it to the certain port of the server
